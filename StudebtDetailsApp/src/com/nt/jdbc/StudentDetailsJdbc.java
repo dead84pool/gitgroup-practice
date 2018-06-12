@@ -47,10 +47,7 @@ public class StudentDetailsJdbc {
 		    }
 		    else {
 		    	System.out.println("sucessfully insert record");
-		    }
-		    
-			
-					
+		    }			
 		}//try
 		catch(SQLException se) {
 			se.printStackTrace();
@@ -82,6 +79,6 @@ public class StudentDetailsJdbc {
 				e.printStackTrace();
 			}
 		}//finally
-	}
+	}//main
 
-}
+}//class
